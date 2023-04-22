@@ -1,0 +1,16 @@
+.nav-bar {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 12px 5px;
+  background-color: aliceblue;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.nav-button-group {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+

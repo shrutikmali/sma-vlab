@@ -1,0 +1,48 @@
+.simulation-root {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.edge-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 12px;
+  height: 300px;
+}
+
+.edges-container {
+  width: 50%;
+  padding: 0 12px;
+}
+
+.edge-list {
+  width: 240px;
+  height: 24px;
+  text-align: center;
+  width: 90%;
+}
+
+.results {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.graph {
+  height: 500px;
+}
+
+.measures {
+  width: 90%;
+  text-align: center;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+}
